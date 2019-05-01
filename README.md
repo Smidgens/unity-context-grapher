@@ -13,6 +13,7 @@ Features include:
 * Different configurations for menus can be created and switched between.
 * Options in menu can be removed without deleting them or their suboptions from the configuration entirely (e.g. by deleting edges connecting them to the tree root)
 * The active menu configuration (the one currently enabled and overriding Unity's default) is cached and thus persists after Unity is closed and reopened. 
+* Resulting menu configuration can be previewed from inspector before it's applied.
 
 
 | Graph editor |
