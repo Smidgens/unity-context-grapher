@@ -48,16 +48,20 @@
 				if(guid > 0)
 				{
 					var ob = EditorUtility.InstanceIDToObject(guid);	
-					// BUG: Should be looked at in the future to prevent data loss
+					// BUG workaround: Should be looked at in the future to prevent data loss
 					// Causes in some instances, Unity to retrieve the asset as a monoscript instance
 					// rather than an actual instance of the asset's class type
 					// For now, if this happens, the cached GUID reference to the asset is detached
 					// to prevent casting errors
-					if(ob.GetType() != typeof(MonoScript))
+					if(!ob || ob.GetType() != typeof(ContextGraph))
 					{
+						Debug.Log("<color=red>Context Grapher: Failed retrieving cached menu. Configuration needs to be reapplied.</color>");
 						EditorPrefs.SetInt(_prefsKey, -1);
+					}
+					else
+					{
 						_cachedCurrent = ob != null ? (ContextGraph)ob : null;
-					}	
+					}
 				}
 			}
 			return _cachedCurrent;
