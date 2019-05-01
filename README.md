@@ -38,7 +38,7 @@ Features include:
 
 **Why "Grapher" and not "Tree-er"?**
 
-*a) grammatic soundness and b) it is technically possible to reuse parts of the graph, though this is unlikely to be needed (perhaps useful to store multiple types of menus within the same configuration file for multiple types of developers)*
+*a) it is technically possible to reuse parts of the graph, though this is unlikely to be needed (perhaps useful to store multiple types of menus within the same configuration file for multiple types of developers) and b) grammatical niceness*
 
 ## Current limitations
 * Doesn't support customisation of scene context menu, [Menu Customizer](https://assetstore.unity.com/packages/tools/utilities/menu-customizer-44011) does. This feature might be added depending on feedback, and whether it can be reliably implemented (MC itself serves as a valuable comparison in this respect in its strengths and limitations).
