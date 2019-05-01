@@ -1,0 +1,237 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6ce87f31fd63d04fb1b4d8d28bca4ae, type: 3}
+  m_Name: Menu
+  m_EditorClassIdentifier: 
+  _nodes:
+  - id: 5efc4fa7becb40058604b21dd6b0911e
+    label: Junk
+    command: 
+    position: {x: -180, y: 320}
+    _type: 2
+  - id: 298aa170a4314cea884e18cd2b1c0a39
+    label: Create
+    command: 
+    position: {x: 90, y: 380}
+    _type: 2
+  - id: 627e3eaea0b64aec9a552f132177c53f
+    label: Animation
+    command: 
+    position: {x: 360, y: 380}
+    _type: 2
+  - id: fb351f063ff044809fca6677f9443212
+    label: Controller
+    command: Assets/Create/Animator Controller
+    position: {x: 590, y: 290}
+    _type: 0
+  - id: 19520b4a240a4e4b8c4ea0d0c606df0b
+    label: Avatar Mask
+    command: Assets/Create/Avatar Mask
+    position: {x: 590, y: 410}
+    _type: 0
+  - id: 35da217b99ee4c9abae6c07e27941aa2
+    label: New
+    command: Assets/Create/Avatar Mask
+    position: {x: 90, y: -10}
+    _type: 2
+  - id: b67d6ab39abc489cb1a3d765caf10a43
+    label: Script
+    command: Assets/Create/C# Script
+    position: {x: 360, y: 140}
+    _type: 0
+  - id: 6b8c60bf843c4533933f3d18b5f8be46
+    label: Surface
+    command: Assets/Create/Shader/Standard Surface Shader
+    position: {x: 590, y: 170}
+    _type: 0
+  - id: 2c36f913cfca43a0ada3667d951e18fb
+    label: Animation
+    command: Assets/Create/Animation
+    position: {x: 590, y: 530}
+    _type: 0
+  - id: 7ba82f8e9cce4cbe9ea8a85fb337f276
+    label: Assembly Definition
+    command: Assets/Create/Assembly Definition
+    position: {x: 360, y: -100}
+    _type: 0
+  - id: 04ae5c943bf24acc9136acb25c00d7fb
+    label: Unlit
+    command: Assets/Create/Shader/Unlit Shader
+    position: {x: 590, y: 230}
+    _type: 0
+  - id: 4fd1fab8b27f4a7786f6d454c4d30a56
+    label: Shader
+    command: Assets/Create/Shader/Unlit Shader
+    position: {x: 360, y: 200}
+    _type: 2
+  - id: e80a6b28ffdb49e192b7fa54fd6d9187
+    label: Override Controller
+    command: Assets/Create/Animator Override Controller
+    position: {x: 590, y: 350}
+    _type: 0
+  - id: cdaa378eeac64765a9dfd0ab27f0d09b
+    label: Material
+    command: Assets/Create/Material
+    position: {x: 360, y: 260}
+    _type: 0
+  - id: 1015a847ced941d0a08bcce6e32e836f
+    label: Material
+    command: Assets/Create/Material
+    position: {x: 360, y: 320}
+    _type: 1
+  - id: d41dadafbe4b4eea8f937a5b710ae82b
+    label: Folder
+    command: Assets/Create/Folder
+    position: {x: 360, y: 20}
+    _type: 0
+  - id: 67f17e9eb9e1400f9821cacf421a65a5
+    label: Folder
+    command: Assets/Create/Folder
+    position: {x: 360, y: 80}
+    _type: 1
+  - id: 7b497173d1c64fbf9aeb51678abbb636
+    label: Rename
+    command: Assets/Rename
+    position: {x: 360, y: 560}
+    _type: 0
+  - id: 64c253463eb543c18b32bc79a4049ff3
+    label: Edit
+    command: 
+    position: {x: 90, y: 620}
+    _type: 2
+  - id: db4246aad4464320817e99392110c1d3
+    label: Delete
+    command: Assets/Delete
+    position: {x: 360, y: 680}
+    _type: 0
+  - id: 9ef66da02eee45db89a3e499f63ec482
+    label: cmd
+    command: 
+    position: {x: 360, y: 620}
+    _type: 1
+  - id: f4000a2773704933bd1c36f76511435d
+    label: cmd
+    command: 
+    position: {x: 360, y: -40}
+    _type: 1
+  - id: d64d9bfd1e3348d89e86de4c7e03fec0
+    label: View
+    command: 
+    position: {x: 90, y: 740}
+    _type: 2
+  - id: a4e57e1eadc04085a48881ea4d93b7f7
+    label: Show In Explorer
+    command: Assets/Show in Explorer
+    position: {x: 360, y: 740}
+    _type: 0
+  - id: 0f190fea3e0d47b99522e985dcd605bc
+    label: cmd
+    command: 
+    position: {x: 90, y: 680}
+    _type: 1
+  - id: 9b846a50ca5840eca83d284d91bbcd55
+    label: Timeline
+    command: Assets/Create/Timeline
+    position: {x: 360, y: 500}
+    _type: 0
+  - id: c3435a9b2f8d4569b3a3d4162547cccb
+    label: cmd
+    command: 
+    position: {x: 360, y: 440}
+    _type: 1
+  - id: e2d17ff89b9e4b008bbd2f8614a5a76e
+    label: cmd
+    command: 
+    position: {x: 590, y: 470}
+    _type: 1
+  _edges:
+  - from: 5efc4fa7becb40058604b21dd6b0911e
+    to: 298aa170a4314cea884e18cd2b1c0a39
+    muted: 0
+  - from: 298aa170a4314cea884e18cd2b1c0a39
+    to: 627e3eaea0b64aec9a552f132177c53f
+    muted: 0
+  - from: 627e3eaea0b64aec9a552f132177c53f
+    to: fb351f063ff044809fca6677f9443212
+    muted: 0
+  - from: 627e3eaea0b64aec9a552f132177c53f
+    to: 19520b4a240a4e4b8c4ea0d0c606df0b
+    muted: 0
+  - from: 5efc4fa7becb40058604b21dd6b0911e
+    to: 35da217b99ee4c9abae6c07e27941aa2
+    muted: 0
+  - from: 627e3eaea0b64aec9a552f132177c53f
+    to: 2c36f913cfca43a0ada3667d951e18fb
+    muted: 0
+  - from: 35da217b99ee4c9abae6c07e27941aa2
+    to: 7ba82f8e9cce4cbe9ea8a85fb337f276
+    muted: 0
+  - from: 35da217b99ee4c9abae6c07e27941aa2
+    to: b67d6ab39abc489cb1a3d765caf10a43
+    muted: 0
+  - from: 4fd1fab8b27f4a7786f6d454c4d30a56
+    to: 6b8c60bf843c4533933f3d18b5f8be46
+    muted: 0
+  - from: 4fd1fab8b27f4a7786f6d454c4d30a56
+    to: 04ae5c943bf24acc9136acb25c00d7fb
+    muted: 0
+  - from: 35da217b99ee4c9abae6c07e27941aa2
+    to: 4fd1fab8b27f4a7786f6d454c4d30a56
+    muted: 0
+  - from: 627e3eaea0b64aec9a552f132177c53f
+    to: e80a6b28ffdb49e192b7fa54fd6d9187
+    muted: 0
+  - from: 298aa170a4314cea884e18cd2b1c0a39
+    to: cdaa378eeac64765a9dfd0ab27f0d09b
+    muted: 0
+  - from: 298aa170a4314cea884e18cd2b1c0a39
+    to: 1015a847ced941d0a08bcce6e32e836f
+    muted: 0
+  - from: 35da217b99ee4c9abae6c07e27941aa2
+    to: 67f17e9eb9e1400f9821cacf421a65a5
+    muted: 0
+  - from: 35da217b99ee4c9abae6c07e27941aa2
+    to: d41dadafbe4b4eea8f937a5b710ae82b
+    muted: 0
+  - from: 5efc4fa7becb40058604b21dd6b0911e
+    to: 64c253463eb543c18b32bc79a4049ff3
+    muted: 0
+  - from: 64c253463eb543c18b32bc79a4049ff3
+    to: 7b497173d1c64fbf9aeb51678abbb636
+    muted: 0
+  - from: 64c253463eb543c18b32bc79a4049ff3
+    to: 9ef66da02eee45db89a3e499f63ec482
+    muted: 0
+  - from: 64c253463eb543c18b32bc79a4049ff3
+    to: db4246aad4464320817e99392110c1d3
+    muted: 0
+  - from: 35da217b99ee4c9abae6c07e27941aa2
+    to: f4000a2773704933bd1c36f76511435d
+    muted: 0
+  - from: d64d9bfd1e3348d89e86de4c7e03fec0
+    to: a4e57e1eadc04085a48881ea4d93b7f7
+    muted: 0
+  - from: 5efc4fa7becb40058604b21dd6b0911e
+    to: d64d9bfd1e3348d89e86de4c7e03fec0
+    muted: 0
+  - from: 5efc4fa7becb40058604b21dd6b0911e
+    to: 0f190fea3e0d47b99522e985dcd605bc
+    muted: 0
+  - from: 298aa170a4314cea884e18cd2b1c0a39
+    to: 9b846a50ca5840eca83d284d91bbcd55
+    muted: 0
+  - from: 298aa170a4314cea884e18cd2b1c0a39
+    to: c3435a9b2f8d4569b3a3d4162547cccb
+    muted: 0
+  - from: 627e3eaea0b64aec9a552f132177c53f
+    to: e2d17ff89b9e4b008bbd2f8614a5a76e
+    muted: 0
+  _rootNode: 5efc4fa7becb40058604b21dd6b0911e

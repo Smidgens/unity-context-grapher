@@ -1,0 +1,12 @@
+{
+    "name": "ContextGrapher.Editor",
+    "references": [
+        "ContextGrapher"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}
