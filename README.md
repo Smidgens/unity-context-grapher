@@ -1,4 +1,4 @@
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/Smidgens/UnityQuickBuild/master/LICENSE.md)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/Smidgens/UnityQuickBuild/master/LICENSE)
 
 # Unity Context Grapher
 Plugin for Unity that lets you customise the context menu in the project window. Useful for reducing workspace clutter for different types of workflow (example: hiding programmer centric options for animators or vice versa).
